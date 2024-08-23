@@ -31,8 +31,8 @@ public class ArrayEx4 {
             System.out.printf("%d 번 학생 점수 입력 : ", i);
             jumsu2[i] = sc.nextInt();
         }
-        // 확인
-        System.out.println(Arrays.toString(jumsu2));
+        // 확인(화면 출력)
+        System.out.println(Arrays.toString(jumsu2)); // [88, 78, 69, 55, 45, 66, 78, 72, 53, 22, 1, 2, 23, 323, 3]
 
         sc.close();
 
