@@ -14,13 +14,13 @@ public class CheckingAccount extends Account {
     // int pay() : 사용금액, 카드 번호
     // 카드번호 일치 시 금액 일치
     int pay(String cardNo, int amount) {
-        if (cardNo.equals(this.cardNo)) {
+        if (!cardNo.equals(this.cardNo)) {
             return -1;
         }
         // 일치 시 금액 인출
         // 잔액 = 잔액 - 사용액;
 
         // balance = super.getBalance() - amount;
-        return super.withdraw(amount);
+        return withdraw(amount);
     }
 }
