@@ -12,7 +12,7 @@ public class Car {
     // 제조사, 모델, 색상, 최대속도
     String company;
     String model;
-    String color; 
+    String color;
     int maxSpeed;
 
     // 기능(동작) => 메소드

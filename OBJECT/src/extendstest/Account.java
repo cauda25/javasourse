@@ -1,12 +1,9 @@
-package ClassTest;
+package extendstest;
 
 public class Account {
-    // 계좌번호(account) : 101-11-12345
-    // 계좌주(owner) : 홍길동
-    // 잔액(balance) : 10000000
-    private String account;
-    private String owner;
-    private int balance;
+    private String account;// 계좌번호(account) : 101-11-12345
+    private String owner;// 계좌주(owner) : 홍길동
+    private int balance;// 잔액(balance) : 10000000
 
     public Account(String account, String owner, int balance) {
         this.account = account;
